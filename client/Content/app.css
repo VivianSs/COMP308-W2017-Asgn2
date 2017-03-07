@@ -17,6 +17,10 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-color: #464646;  
+  height:100%;
+}
+html {
+    height:100%;
 }
 
 nav {
@@ -50,7 +54,9 @@ nav {
       background-color:rgba(49,87,102,0.5);
       color:white;
       max-width: 60%;
+      min-height: 100%;
 }
+
 h1, h2 {
     color:#64FCEF;
     font-family: 'Oswald', sans-serif;
@@ -87,13 +93,23 @@ margin-top: 0%;
 .content {
     margin: auto 10%;
 }
+#register {
+   color: orange;
+}
+a#register:hover {
+    color: darkorange;
+}
+
 footer {
     margin-top: 10%;
     text-align: center;
 }
 .footer {
     text-align: center;
+    margin-top: 10%;
 }
+
+
 
 
 
