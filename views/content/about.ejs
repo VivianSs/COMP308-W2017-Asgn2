@@ -1,0 +1,39 @@
+<!--
+File name: about.ejs
+Author's name: Sisi Li
+Web site name: Sisi's Portfilo
+File description: this is a about me ejs templet
+-->
+
+<% include ../partials/header.ejs %><!-- include the navigation bar-->
+
+<!-- content section -->
+<div class="container">
+<% include ../partials/jumbotron.ejs %><!-- include the jumbotron -->
+
+<!-- create two rows of grid system  -->
+   <div class="row">
+   <div class="col-md-8">
+   <img src="/Assets/images/me1.png" alt="" class="img-rounded">
+   </div>
+   <div class="col-md-4">         
+   <p> It is my personal mission that to become a good web developer or android developer so that I can improve myself and help my family to live in a better life. </p>     
+   <p>I have passion for web development,and also mobile development. I really enjoy programming and finally seeing my achievements. Especially when I have spent lots of time to solve bugs and then find best solutions to deal with it.</p>
+   
+   </div>
+   </div>
+<div class="row">
+<div class="col-md-4"> 
+    <p>I am a self-driven person, so I can work independently and effeciently. At the same time, I am able to collaborate with others as a team member in order to build team effort.</p>
+    <p>To gain more knowledge and improve technical skills is my main purpose by now. In the future, I am willing to provide my ideas, techical skills, experiences to my company in order to help the company grow the business.</p>
+ </div> 
+  <div class="col-md-8">
+  <img src="/Assets/images/me2.png" alt="" class="img-rounded">
+  </div>
+
+</div>
+
+
+ <% include ../partials/footer.ejs %>   <!-- include the footer partial -->   
+  </div> <!-- /container -->
+ <% include ../partials/scripts.ejs %>  <!-- include the scripts -->

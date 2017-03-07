@@ -1,0 +1,23 @@
+<!--
+File name: services.ejs
+Author's name: Sisi Li
+Web site name: Sisi's Portfilo
+File description: this is a services ejs templet
+-->
+
+<% include ../partials/header.ejs %><!-- include the navigation bar-->
+<!-- content section -->
+  <div class="container">
+  <% include ../partials/jumbotron.ejs %><!-- include the jumbotron -->
+  <div class = "content">
+  <!-- loop the services I have  -->
+  <ul>
+      <% services.forEach(function(service) { %>
+       <li> <h3><%= service.name %></h3></li>
+         <p><%= service.description %></p>
+    <% }); %>
+    </ul>
+  </div>
+<% include ../partials/footer.ejs %>
+  </div> <!-- /container -->
+<% include ../partials/scripts.ejs %>

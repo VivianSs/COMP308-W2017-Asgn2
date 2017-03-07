@@ -1,0 +1,26 @@
+{
+  "name": "comp308-w2017-assignment2",
+  "description": "use **`npm install`** to install your project dependencies",
+  "main": "server.js",
+  "authors": [
+    "Sisi Li"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "NodeJS",
+    "ExpressJS"
+  ],
+  "homepage": "https://github.com/VivianSs/COMP308-W2017-Asgn2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.2.4",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0"
+  }
+}

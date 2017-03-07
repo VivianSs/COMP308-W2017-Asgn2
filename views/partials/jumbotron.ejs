@@ -1,0 +1,17 @@
+<!--
+File name: jumbotron.ejs
+Author's name: Sisi Li
+Web site name: Sisi's Portfilo
+File description: this is a jumbotron partial
+-->
+
+<!-- loop and display the title and lead reading of all pages -->
+<div class="main">
+        <h1><%= title %></h1>
+        <% sentences.forEach(function(sentence){ %>
+         <p class = "lead"> <%= sentence %></p>
+         <% })%> 
+         <hr>
+</div>
+     
+       

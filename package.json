@@ -1,0 +1,38 @@
+{
+  "name": "comp308-w2017-assignment2",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=3.5.0"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "~2.5.2",
+    "express": "~4.14.0",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0"
+  },
+  "description": "use **`npm install`** to install your project dependencies",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VivianSs/COMP308-W2017-Asgn2.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "ExpressJS"
+  ],
+  "author": "Sisi Li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VivianSs/COMP308-W2017-Asgn2/issues"
+  },
+  "homepage": "https://github.com/VivianSs/COMP308-W2017-Asgn2#readme",
+  "devDependencies": {}
+}

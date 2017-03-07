@@ -1,0 +1,110 @@
+<!--
+File name: projects.ejs
+Author's name: Sisi Li
+Web site name: Sisi's Portfilo
+File description: this is a prjects ejs templet
+-->
+
+<% include ../partials/header.ejs %><!-- include the navigation bar-->
+
+<!-- content section -->
+<div class="container">
+ <% include ../partials/jumbotron.ejs %><!-- include the jumbotron -->
+<div class = "content">
+<h3>Clinic Administration System</h3>
+<p>It is a clinic administration system for managing patients' information by storing data in SQLite database. </p>
+<!-- create rows to display clinic project image and description -->
+ <div class="row marketing">
+         <div class="col-lg-6">
+          <img src="/Assets/images/clinicProject/clinic1.PNG" alt="" class="projectImg">
+          <p>Doctors and nurses can login or register into the system. Their identity will be verified to access different sections in the system.</p>        
+           <img src="/Assets/images/clinicProject/clinic3.PNG" alt="" class="projectImg">
+          <p>They can enter the information to the system. All the data will be stored in the local database which is SQLite database.</p>   
+        </div>
+        <div class="col-lg-6">
+            <img src="/Assets/images/clinicProject/clinic2.PNG" alt="" class="projectImg">
+          <p>It has four different basic navigations. Nurses can access all of it, but doctors can only access the "Test" information.</p>
+           <img src="/Assets/images/clinicProject/clinic4.PNG" alt="" class="projectImg">
+          <p>They can also retrive the information from the database by ethier seaching the name/id of specific record or display all the records.</p>
+        </div>
+  </div><hr>
+
+<h3>Contacts Management System</h3>
+<p>It is a contacts management system for administrators to manage contacts by using JavaEE persistence and JSP</p>
+<!-- create rows to display contact management project image and description -->
+<div class="row">
+   <div class="col-md-8">
+    <img src="/Assets/images/contactManagementProject/contact1.PNG" alt="">
+   </div>
+   <div class="col-md-4">         
+   <p>The database has two tables which are contact and user. User table stores data of administrators who can access the contacts information.  </p>     
+   <p>Administrators can login by username and password which has already stored in the user table.</p>
+   </div>
+</div>
+<div class="row">
+   <div class="col-md-8">
+    <img src="/Assets/images/contactManagementProject/contact2.PNG" alt="">
+   </div>
+   <div class="col-md-4">         
+   <p>Administrators can add new contact information of one person and information will be stored in the contact table</p> 
+   <p>The fields have input validation which prevernt malicious or invalid inputs from users.</p>    
+   </div>
+</div>
+<div class="row">
+   <div class="col-md-8">
+    <img src="/Assets/images/contactManagementProject/contact3.PNG" alt="">
+   </div>
+   <div class="col-md-4">         
+   <p>Administrators are able to retrive the contact information of one specific person by searching the contact ID</p>     
+   </div>
+</div>
+<div class="row">
+   <div class="col-md-8">
+    <img src="/Assets/images/contactManagementProject/contact4.PNG" alt="">
+   </div>
+   <div class="col-md-4">         
+   <p>Administrators can view the specific contact information and also can eidt or delete this record from the conatct table.</p>     
+   </div>
+</div>
+ <hr>
+
+ <h3>Restaurant Menu Order Application</h3>
+ <p>This is a simple restaurant menu order application by using JavaEE.</p>
+  <!-- create rows to display restaurant menu order project image and description -->
+  <div class="row">
+   <div class="col-md-8">
+    <img src="/Assets/images/restaurantProject/restaurant1.PNG" alt="">
+   </div>
+   <div class="col-md-4">         
+   <p>Users can view the food menu when they visit the website.</p>     
+   <p>And then enter the user name to the system.</p>
+   </div>
+</div>
+<div class="row">
+   <div class="col-md-8">
+    <img src="/Assets/images/restaurantProject/restaurant2.PNG" alt="">
+   </div>
+   <div class="col-md-4">         
+   <p>Users can select several food items from the menu and also specify the quantity of each food item they want to order.</p>  
+   </div>
+</div>
+<div class="row">
+   <div class="col-md-8">
+    <img src="/Assets/images/restaurantProject/restaurant3.PNG" alt="">
+   </div>
+   <div class="col-md-4">         
+   <p>Users can confirm or cancel the order.</p>     
+   </div>
+</div>
+<div class="row">
+   <div class="col-md-8">
+    <img src="/Assets/images/restaurantProject/restaurant4.PNG" alt="">
+   </div>
+   <div class="col-md-4">         
+   <p>The simple application was developed to pass data and display data by using request scope, session scope and application acope.</p>     
+   </div>
+</div>
+</div>
+<% include ../partials/footer.ejs %><!-- include the footer partial --> 
+</div> <!-- /container -->
+<% include ../partials/scripts.ejs %> <!-- include the scripts -->

@@ -1,0 +1,108 @@
+/*
+File name: app.css
+Author's name: Sisi Li
+Web site name: Sisi's Portfilo
+File description: this is a custom css file 
+*/
+
+/* font section*/
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body {
+  background-image: url(/Assets/images/background.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;  
+}
+
+nav {
+     opacity: 0.7;
+     background-color: #64FCEF;    
+}
+
+.active {
+    background-color: lightblue;
+}
+
+#home {
+    text-align: center;
+}
+
+#name{
+    font-family: 'Oswald', sans-serif;
+    font-size: 9em;
+    font-weight: bold;
+    color:#64FCEF;
+    text-align: center;
+}
+#welcome {
+      margin-top: 5%;
+      font-size: 4em;
+      text-align: center;
+      color:white;
+      font-family: 'Indie Flower', cursive;
+}
+.container {
+      background-color:rgba(49,87,102,0.5);
+      color:white;
+      max-width: 60%;
+}
+h1, h2 {
+    color:#64FCEF;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 4em;
+    margin: 5% auto;
+}
+h3{
+   color:#64FCEF; 
+   font-weight: bold;
+   font-family: 'Oswald', sans-serif;
+   margin-top:5%;
+} 
+p {
+      font-family: Georgia, serif;
+      color: white;
+      font-size: 15px;
+}
+
+.main {
+    text-align: center;
+    margin:auto 10%;
+    
+}
+.row {
+    margin-top: 8%;
+}
+.marketing {
+margin-top: 0%;
+}
+.projectImg{
+    margin: 5% auto;
+}
+.content {
+    margin: auto 10%;
+}
+footer {
+    margin-top: 10%;
+    text-align: center;
+}
+.footer {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+<!--
+File name: index.ejs
+Author's name: Sisi Li
+Web site name: Sisi's Portfilo
+File description: this is a index ejs templet
+-->
+<% include ../partials/header.ejs %><!-- include the navigation bar-->
+
+<!-- content section -->
+<div class="container">
+<div id = "home">
+       <h1  id="name"><%=name %></h1>
+       <p id="welcome">Welcome to my website</p>
+       
+       <div class="row">
+        <div class="col-md-4">   
+        </div>
+        <div class="col-md-4">
+          <p>I am a software developer from China living in Canada, where I study  software engineering technology at Centennial College. I am good at 
+            Java and android application development.</p><br><br>
+         <p>If you want to know more about me, discover from my website.</p>
+       </div>
+       </div>
+
+       <div class="row">
+        <div class="col-md-4">   
+        </div>
+        <div class="col-md-4">
+          <img src="/Assets/images/home.png" alt="" class = "img-circle">
+       </div>
+        
+</div>
+
+ <% include ../partials/footer.ejs %><!-- include the footer partial -->  
+</div> <!-- /container -->
+ <% include ../partials/scripts.ejs %><!-- include the scripts -->
+ 
+   
