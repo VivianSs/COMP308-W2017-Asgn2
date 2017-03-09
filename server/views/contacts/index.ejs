@@ -34,7 +34,7 @@ File description: this is a business contacts ejs templet
               <td class="text-center"><%= contacts[count].email %></td>
               <td class="text-center">
               <a href="/contacts/<%= contacts[count]._id %>" class="btn btn-primary">
-              <i class="fa fa-pencil-square-o"></i> Edit</a>
+              <i class="fa fa-pencil-square-o"></i> Update</a>
                </td>
               <td class="text-center">
               <a href="/contacts/delete/<%= contacts[count]._id %>" class="btn btn-danger">
@@ -47,7 +47,7 @@ File description: this is a business contacts ejs templet
         </div>
       </div>
     </div>
-  </div>
+    
 <footer>&copy; Portfilo by Sisi Li -- COMP308</footer>
 </div> <!-- /container -->
 <% include ../partials/scripts.ejs %><!-- include the scripts -->

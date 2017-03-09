@@ -90,13 +90,6 @@ router.get('/contact', (req, res, next) => {
   });
 });
 
-// /* GET business contacts page. */
-// router.get('/businessContacts', requireAuth, (req, res, next) => {
-//   res.render('content/contacts', {
-//     title: 'Business Contacts'
-//   });
-// });
-
 // GET /login - render the login view
 router.get('/login', (req, res, next) => {
   // check to see if the user is not already logged in
