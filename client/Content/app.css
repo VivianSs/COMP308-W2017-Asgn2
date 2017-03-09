@@ -23,15 +23,21 @@ html {
     height:100%;
 }
 
+/* navbar section */
 nav {
      opacity: 0.7;
      background-color: #64FCEF;    
+}
+
+.navbar-text{
+    color:#297b94;
 }
 
 .active {
     background-color: lightblue;
 }
 
+/* content section */
 #home {
     text-align: center;
 }
@@ -99,6 +105,8 @@ margin-top: 0%;
 a#register:hover {
     color: darkorange;
 }
+
+/* table section */
 .table {
     background-color: #5f8594;
 }
@@ -114,8 +122,7 @@ thead {
     background-color: #426875;
 }
 
-
-
+/* footer section */
 footer {
     margin-top: 10%;
     text-align: center;

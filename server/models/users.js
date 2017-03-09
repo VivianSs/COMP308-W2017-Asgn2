@@ -1,3 +1,10 @@
+/*
+File name: users.js
+Author's name: Sisi Li
+Web site name: Sisi's Portfilo
+File description: this is a file to define the users table model
+*/
+
 // require modules for our User Model
 let mongoose = require('mongoose');
 let Schema = mongoose.Schema; //alias for mongoose Schema

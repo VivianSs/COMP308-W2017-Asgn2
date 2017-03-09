@@ -1,3 +1,10 @@
+/*
+File name: app.js
+Author's name: Sisi Li
+Web site name: Sisi's Portfilo
+File description: this is js file that is to ensure the module imports, configurations and middleware setup, server.
+*/
+
 //include all of our middleware - internal /external modules
 let express = require('express');
 let path = require('path');

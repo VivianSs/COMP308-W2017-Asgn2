@@ -1,3 +1,10 @@
+/*
+File name: indext.js
+Author's name: Sisi Li
+Web site name: Sisi's Portfilo
+File description: this is a index router file to create each GET, POST function
+*/
+
 // modules required for routing
 let express = require('express');
 let router = express.Router();
