@@ -99,6 +99,22 @@ margin-top: 0%;
 a#register:hover {
     color: darkorange;
 }
+.table {
+    background-color: #5f8594;
+}
+
+tr:nth-child(even){
+    background-color: #7b9fab;
+    }
+
+.table tr:hover {
+    background-color: #426875;
+}
+thead {
+    background-color: #426875;
+}
+
+
 
 footer {
     margin-top: 10%;

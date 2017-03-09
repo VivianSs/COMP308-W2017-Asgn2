@@ -28,7 +28,7 @@ db.once('open', () => {
 
 // define routers
 let index = require('./routes/index');
-
+let contacts = require('./routes/contacts'); // routes for contacts
 
 let app = express();
 
@@ -56,7 +56,9 @@ app.use(flash());
 app.use(passport.initialize());
 app.use(passport.session());
 
+// route redirects
 app.use('/', index);
+app.use('/contacts',contacts);
 
 // Passport User Configuration
 let UserModel = require('./models/users');

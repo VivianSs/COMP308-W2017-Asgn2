@@ -1,0 +1,53 @@
+<!--
+File name: businessContacts.ejs
+Author's name: Sisi Li
+Web site name: Sisi's Portfilo
+File description: this is a business contacts ejs templet
+-->
+
+<% include ../partials/header.ejs %><!-- include the navigation bar-->
+
+ <!-- MAIN CONTENT -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-1 col-md-10">
+        <h2>Business Contacts</h2>
+        <a href="/contacts/add" class="btn btn-primary"><i class="fa fa-plus"></i> Add a Contact</a>
+        <br>
+        <div class="table-responsive">
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th class="text-center">Contact Name</th>
+                <th class="text-center">Contact Number</th>
+                <th class="text-center">Email Address</th>
+                <th class="text-center"></th>
+                <th class="text-center"></th>
+              </tr>
+            <thead>
+            <tbody>
+            <!-- Template Row -->
+            <% for (let count = 0; count < contacts.length; count++) { %>
+            <tr>
+              <td class="text-center"><%= contacts[count].name %></td>
+              <td class="text-center"><%= contacts[count].number %></td>
+              <td class="text-center"><%= contacts[count].email %></td>
+              <td class="text-center">
+              <a href="/contacts/<%= contacts[count]._id %>" class="btn btn-primary">
+              <i class="fa fa-pencil-square-o"></i> Edit</a>
+               </td>
+              <td class="text-center">
+              <a href="/contacts/delete/<%= contacts[count]._id %>" class="btn btn-danger">
+              <i class="fa fa-trash-o"></i> Delete</a>
+              </td>
+            </tr>
+            <% } %>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+<footer>&copy; Portfilo by Sisi Li -- COMP308</footer>
+</div> <!-- /container -->
+<% include ../partials/scripts.ejs %><!-- include the scripts -->
